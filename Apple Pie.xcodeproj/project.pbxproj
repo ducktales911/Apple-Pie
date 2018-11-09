@@ -12,6 +12,7 @@
 		E9C024BC2195B473009F46E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C024BA2195B473009F46E8 /* Main.storyboard */; };
 		E9C024BE2195B478009F46E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C024BD2195B478009F46E8 /* Assets.xcassets */; };
 		E9C024C12195B478009F46E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C024BF2195B478009F46E8 /* LaunchScreen.storyboard */; };
+		E9C024C92195C079009F46E8 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C024C82195C079009F46E8 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E9C024BD2195B478009F46E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C024C02195B478009F46E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C024C22195B478009F46E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C024C82195C079009F46E8 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E9C024B62195B473009F46E8 /* AppDelegate.swift */,
 				E9C024B82195B473009F46E8 /* ViewController.swift */,
 				E9C024BA2195B473009F46E8 /* Main.storyboard */,
+				E9C024C82195C079009F46E8 /* Game.swift */,
 				E9C024BD2195B478009F46E8 /* Assets.xcassets */,
 				E9C024BF2195B478009F46E8 /* LaunchScreen.storyboard */,
 				E9C024C22195B478009F46E8 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C024B92195B473009F46E8 /* ViewController.swift in Sources */,
+				E9C024C92195C079009F46E8 /* Game.swift in Sources */,
 				E9C024B72195B473009F46E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "thomas-hamburger.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "thomas-hamburger.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
