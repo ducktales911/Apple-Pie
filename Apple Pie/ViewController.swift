@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet var letterButtons: [UIButton]!
 
-    // Wordt uitgevoerd als een letter wordt gekozen. Zet knop op disabled en geef de letter door aan playerGuessed() functie.
+    // Wordt uitgevoerd als een letter wordt gekozen. Zet knop op disabled en geef de letter door aan playerGuessed()s.
     @IBAction func buttonPressed(_ sender: UIButton) {
         sender.isEnabled = false
         let letterString = sender.title(for: .normal)!

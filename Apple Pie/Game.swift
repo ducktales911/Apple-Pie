@@ -15,7 +15,7 @@ struct Game {
     var incorrectMovesRemaining: Int
     var guessedLetters: [Character]
 
-    // Computed property die wordt gegenereerd in de updateUI() en updateGameState() van ViewController.swift. Geef de goedgekozen letters weer verbonden met underscores.
+    // Computed property die wordt gegenereerd in de updateUI() en updateGameState() van ViewController.swift. Geef de goedgekozen letters weer met underscores als onontdekte letters.
     var formattedWord: String {
         var guessedWord = ""
         for letter in word {
