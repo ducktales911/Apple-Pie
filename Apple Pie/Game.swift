@@ -8,28 +8,31 @@
 
 import Foundation
 
+// Representeert de huidige toestand van het spel.
 struct Game {
+
     var word: String
     var incorrectMovesRemaining: Int
     var guessedLetters: [Character]
+
+    // Computed property die wordt gegenereerd in de updateUI() en updateGameState() van ViewController.swift. Geef de goedgekozen letters weer verbonden met underscores.
     var formattedWord: String {
         var guessedWord = ""
-        for letter in word.characters{
-            if guessedLetters.contains(letter){
+        for letter in word {
+            if guessedLetters.contains(letter) {
                 guessedWord += "\(letter)"
-                
             } else {
                 guessedWord += "_ "
             }
         }
         return guessedWord
     }
-    
-    mutating func playerGuessed(letter: Character){
+
+    // Wordt na elke tap op letter button aangeroepen. Update de guessedLetters array.
+    mutating func playerGuessed(letter: Character) {
         guessedLetters.append(letter)
-        if !word.characters.contains(letter) {
+        if !word.contains(letter) {
             incorrectMovesRemaining -= 1
         }
     }
 }
-
