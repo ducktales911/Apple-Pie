@@ -6,4 +6,4 @@ The player has only 7 tries for chossing letters, whenever an incorrect letter i
 Whenever a correct letter is chosen, the word updates to show all the correctly chosen letters of the word, on the correct possition.
 When the player runs out of tries, or when the correct word is guessed, the game restarts.
 
-![Apple Pie Game](https://github.com/ducktales911/Apple-Pie/blob/master/Schermafbeelding%202018-11-09%20om%2015.01.30.png)
+![Apple Pie Game](https://raw.githubusercontent.com/ducktales911/Apple-Pie/master/Screenshots/1.png)
